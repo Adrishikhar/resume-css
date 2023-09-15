@@ -49,7 +49,8 @@ main {
 .about {
 	display: flex;
 	flex-direction: column;
-	height: 300px;
+	min-height: 300px;
+	height: auto;
 	align-items: center;
 	justify-content: center;
 	background-color: rgb(211, 192, 168);
@@ -69,7 +70,8 @@ main {
 .skills {
 	display: flex;
 	flex-direction: column;
-	height: 300px;
+	min-height: 400px;
+	height: auto;
 	align-items: center;
 	justify-content: center;
 	background-color: rgb(225, 209, 188);
@@ -81,15 +83,24 @@ main {
 	font-size: 30px;
 }
 .skills ol {
-	width: 70%;
+	width: 40%;
 	font-size: 20px;
+}
+.skills li {
+	margin-bottom: 10px;
+}
+.skills li li {
+	list-style: square;
+	margin-left: 20px;
+	margin-bottom: 2px;
 }
 
 /* Experience */
 .experience {
 	display: flex;
 	flex-direction: column;
-	height: 500px;
+	min-height: 560px;
+	height: auto;
 	align-items: center;
 	justify-content: center;
 	background-color: rgb(240, 225, 205);
@@ -98,18 +109,23 @@ main {
 	font-family: "Trebuchet MS";
 	color: black;
 	padding: 10px;
+	margin-bottom: 20px;
 	font-size: 30px;
 }
 .experience ol {
 	width: 80%;
-	font-size: 20px;
+	font-size: 22px;
+}
+.experience ol li {
+	margin-bottom: 15px;
 }
 
 /* others */
 .others {
 	display: flex;
 	flex-direction: column;
-	height: 200px;
+	min-height: 200px;
+	height: auto;
 	align-items: center;
 	justify-content: center;
 	background-color: rgb(248, 219, 183);
@@ -129,7 +145,8 @@ main {
 .education {
 	display: flex;
 	flex-direction: column;
-	height: 200px;
+	min-height: 200px;
+	height: auto;
 	align-items: center;
 	justify-content: center;
 	background-color: rgb(242, 209, 166);
@@ -144,10 +161,14 @@ main {
 	width: 50%;
 	font-size: 20px;
 }
+.education ul li {
+	margin-bottom: 7px;
+}
 
 /* footer */
 footer {
-	background-color: aliceblue;
+	background-color: rgb(33, 32, 32);
+	color: white;
 	height: 100px;
 	display: flex;
 	flex-direction: column;
