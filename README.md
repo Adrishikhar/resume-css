@@ -1,3 +1,3 @@
 # resume-html
 
-Deployed at : https://resume-html-rho.vercel.app/
+Deployed at : https://resume-css-three.vercel.app/
